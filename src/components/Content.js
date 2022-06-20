@@ -1,13 +1,17 @@
 import React from "react";
-import "./style.css"
+import "./style.css";
 
 function Content() {
-    return(
+    return (
         <div className="contentdiv">
             <h3>About</h3>
-            <p>I am a student at Fordham university majoring in math and computer science.</p>
+            <p>
+                I am an aspiring engineer. I am currently an undergraduate
+                student at Columbia university majoring in Electrical
+                Engineering
+            </p>
             <h3>Interests</h3>
-            <p>I like computers and software development and currently I am building this project with react</p>
+            <p>I like engineering, computers and software development.</p>
         </div>
     );
 }
